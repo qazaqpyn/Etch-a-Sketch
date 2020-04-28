@@ -1,27 +1,30 @@
 .container {
-    width: 70vw;
-    height: 70vh;
+    width: 50vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     margin: auto;
+    border: 1px solid black;
 }
 
+h1 {
+    text-align: center;
+}
 .containerOfDiv {
     display: flex;
     flex-direction: row;
-    
     flex: 1 1 auto;
 }
 
 .divOfGrid {
-    border: 1px solid black;
     flex: 1 1 auto;
 }
+ .colors, .btns {
+     display: flex;
+     justify-content: center;
+ }
 
-/* .divOfGrid:hover {
-    background-color: black;
-} */
-
-.hovering {
-    background-color: black;
+button {
+    margin: 15px;
+    padding: 20px;
 }
