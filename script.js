@@ -10,3 +10,9 @@ for (let i = 0; i < 16; i++) {
     }
     container.appendChild(containerOfDiv);
 }
+
+const hover = document.querySelectorAll('.divOfGrid');
+
+hover.forEach((div) => {
+    div.addEventListener('mouseover', () => div.classList.add('hovering'))
+});

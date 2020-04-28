@@ -3,16 +3,25 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .containerOfDiv {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid black; */
+    
     flex: 1 1 auto;
 }
 
 .divOfGrid {
     border: 1px solid black;
     flex: 1 1 auto;
+}
+
+/* .divOfGrid:hover {
+    background-color: black;
+} */
+
+.hovering {
+    background-color: black;
 }
